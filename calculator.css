@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(98, 155, 123);
+    text-align: center;
+}
+
+#calculator {
+    width: 300px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+input {
+    background-color: #eaedef;
+    margin-top: 10px;
+    width: 290px;
+    height: 50px;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+table {
+    height: 400px;
+}
+
+.operator,
+.number {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.number {
+    background-color: #edeaef;
+}
+
+.btn {
+    background-color: rgb(150, 149, 148);
+}
+
+.operator:active,
+.number:active {
+    font-size: 13px;
+    width: 45px;
+}
+
+button:hover {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.operator:focus,
+.number:focus {
+    outline: 0;
+}
+
+.opt1 {
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+.opt2 {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+.opt3 {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+.opt4 {
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+.opt5 {
+    font-size: 20px;
+    background-color: #9477af;
+}
